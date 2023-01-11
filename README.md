@@ -29,6 +29,7 @@ Then clone it to your local machine and run:
 
 ```
 $ bundle
+docker run  --volume="$PWD:/srv/jekyll:Z" -p 4000:4000  -it jekyll/r4.2.2 bash
 ```
 
 ## Usage
