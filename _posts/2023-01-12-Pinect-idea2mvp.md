@@ -15,6 +15,16 @@ One of those devices is a hand-free controller for [Interactive urinals](https:/
 ![Pinect game offer](/assets/Pinect/ch0/footbal_game.webp "Pinect game offer")
 
 Since I had a lot of fun with this project and because I love open-source code, I figured I'd publish all the source code and make a writeup of how I designed the first Open Source Interactive Urinal Arcade Video Game Console, which I named Pinect.
+
+This video provides a great visual of how the technology will work in the final Pinect device. It's impressive to see the process in action and it gives a clear understanding of how it will function in the end product. The use of a pencil simulating the player's stream is a clever solution to avoid any potential embarrassment during testing
+
+<center>
+<video autoplay loop muted playsinline>
+    <source src="/assets/Pinect/ch0/demo.mp4" type="video/webm">
+    Your browser does not support HTML5 video.       
+</video>
+</center>
+
 The comprehensive guide on how to do so from "scratch" using an Arduino, Android device, cheap USB camera and PLA filament. This decision was created a modularized, flexible and extensible platform.
 
 Let’s get started and see how other urine game devices are built. Several designs have been produced to date, usually comprising a urinal fitted with a pressure sensor to measure the strength and position of the urine flow and an LCD screen mounted above the urinal to provide animated graphics. All these items are easy to get for an ordinary person, except the urinal fitted with a sensor. What a replacement for it could look like?
@@ -45,6 +55,7 @@ Simplifying the task by working with a part of the screen can also help to reduc
     <a href="/assets/Pinect/ch0/axis_position-min.gif">Click here to view original GIF</a>
 </video>
 </center>
+
 
 Using a 1D convolution to collect image changes along the axis can be a useful approach for detecting the movement of the gamer in a video. A 1D convolution is a mathematical operation that involves summing up the values of each column in an image. This can help to identify changes in the image data over time, which can be used to detect movement.
 One advantage of using a 1D convolution for this purpose is that it is a fairly simple operation, which makes it easy to implement and can be performed quickly. It also requires relatively little computational power, which makes it well-suited for use on devices with limited resources.
