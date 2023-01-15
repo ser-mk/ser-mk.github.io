@@ -31,7 +31,7 @@ description: >-                        # used by seo meta and the atom feed
   Interesting and innovative software and hardware projects can be found here. I share my discoveries and insights to inspire DIY tech enthusiasts like you. Exploring technological limits and pushing boundaries to create something truly unique.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'ser-mk.github.io'
+url: 'https://ser-mk.github.io'
 
 github:
   username: ser-mk             # change to your github username
