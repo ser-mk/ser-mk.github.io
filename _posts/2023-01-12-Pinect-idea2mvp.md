@@ -3,6 +3,8 @@ title: Chapter 0. "From Idea to MVP"
 date: 2023-01-12
 categories: [Pinect]
 tags: [Pinect, MVP, python, algorithm, image recognition]     # TAG names should always be lowercase
+image: /assets/Pinect/logo.png
+description: Detailing the process of creating an MVP for a unique urinal game console concept. Discussing the steps taken to validate the idea and bring it to fruition, including design and development considerations.
 ---
 
 There are a ton of video game consoles that have come out over the years. Each of them is unique, but something else that has set some consoles apart is the fact that a lot of them have some really unique controllers. 
@@ -46,8 +48,6 @@ However, in order to use the camera effectively, it is necessary to find how to 
 Using data from changes in the background of the camera image can be an effective way to detect the position of the gamer stream when the console, the pissoir and other objects in the scene are fixed in relation to each other. In this case, since only the gamer stream can move in the video, it becomes easier to detect their movement and use it to calculate their position.
 Simplifying the task by working with a part of the screen can also help to reduce the computational demands of the system, as it reduces the amount of data that needs to be processed. In the case of a pong game, it is sufficient to pin down the position of the gamer in the direction of the horizontal line, as this is all that is needed to play the game.
 
-<!-- ![pinect game mechanics](/assets/Pinect/ch0/axis_position-min.gif "pinect game mechanics") -->
-<!-- ![pinect game mechanics](/assets/Pinect/ch0/axis_position-min.gif "pinect game mechanics") -->
 <center>
 <video autoplay loop muted playsinline>
     <source src="/assets/Pinect/ch0/axis_position.webm" type="video/webm">
