@@ -18,7 +18,10 @@ One of those devices is a hand-free controller for [Interactive urinals](https:/
 
 Since I had a lot of fun with this project and because I love open-source code, I figured I'd publish all the source code and make a writeup of how I designed the first Open Source Interactive Urinal Arcade Video Game Console, which I named Pinect.
 
-This video provides a great visual of how the technology will work in the final Pinect device. It's impressive to see the process in action and it gives a clear understanding of how it will function in the end product. The use of a pencil simulating the player's stream is a clever solution to avoid any potential embarrassment during testing
+This video provides a great visual of how the technology will work in the final Pinect device. It's impressive to see the process in action and it gives a clear understanding of how it will function in the end product. The use of a pencil simulating the player's stream is a clever solution to avoid any potential embarrassment during testing.
+
+> Note: "player's stream" or "gamer's stream" or urine stream" refers to the flow of urine out of the body when a person urinates.
+{: .prompt-tip }
 
 <center>
 <video autoplay loop muted playsinline>
