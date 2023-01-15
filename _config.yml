@@ -19,9 +19,11 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Evgeny Chormonov                          # the main title
+title: Evgeny Chormonov                        # the main title
 
-logo: /assets/img/favicons/android-chrome-192x192.png
+author: Evgeny Chormonov
+
+logo: /assets/img/logo.png
 
 tagline: "Engineering the unconventional: unique software and hardware solutions"  # it will display as the sub-title
 
