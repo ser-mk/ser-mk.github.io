@@ -3,7 +3,7 @@ title: Chapter 0. "From Idea to MVP"
 date: 2023-01-12
 categories: [Pinect]
 tags: [Pinect, MVP, python, algorithm, image recognition]     # TAG names should always be lowercase
-image: http://ser-mk.github.io/assets/Pinect/logo.png
+image: http://ser-mk.github.io/assets/Pinect/ch0/sensor_position.png
 description: Detailing the process of creating an MVP for a unique urinal game console concept. Discussing the steps taken to validate the idea and bring it to fruition, including design and development considerations.
 ---
 
