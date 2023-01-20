@@ -1,0 +1,57 @@
+---
+title: Pinect. Introduction
+date: 2023-01-15
+categories: [Pinect]
+tags: [Pinect]     # TAG names should always be lowercase
+image: http://ser-mk.github.io/assets/Pinect/intro.png
+description: Open Source Interactive urinals based on Arduino, Android, 3D printing
+pin: true
+---
+
+## [Table Of Contents](#that-guide-consists-of-articles)
+
+There are a ton of video game consoles that have come out over the years. Each of them is unique, but something else that has set some consoles apart is the fact that a lot of them have some really unique controllers. 
+While most games just use a standard controller with thumbsticks, a D-pad, and various different buttons that are used to control your character, there are some consoles that have been released that have used some unique controllers. 
+We’ve been treated to some of the most bizarre and downright crazy input devices ever created. Devices that are so outlandish, or just plain pointless that they deserve to be recognised, for good, and bad.
+
+One of those devices is a hand-free controller for [Interactive urinals](https://en.wikipedia.org/wiki/Interactive_urinal). Their devices have a long history, yet little is known about them on Wikipedia. This is mostly due to the high cost of equipment, complicated installation, and vendor-proprietary platforms. Empowered by my own recent experience, I realized I could make a cheaper version of this console and decided to take matters into my own hands. It happened before the 2018 FIFA World Cup in Russia. Therefore, I thought it might be fun to do a multiplayer football game, sort of like arcade [pong](https://en.wikipedia.org/wiki/Pong). Football fans would have the ability to have a beer at a pub and then compete against each other in football pong using the urinal game controller.
+
+![Bad Toilet Etiquette](/assets/Pinect/ch0/Urinal_Etiquette.webp "Bad Toilet Etiquette")
+![Pinect game offer](/assets/Pinect/ch0/footbal_game.webp "Pinect game offer")
+
+Since I had a lot of fun with this project and because I love open-source code, I figured I'd publish all the source code and make a writeup of how I designed the first Open Source Interactive Urinal Arcade Video Game Console, which I named Pinect.
+
+This video provides a great visual of how the technology will work in the final Pinect device. It's impressive to see the process in action and it gives a clear understanding of how it will function in the end product. The use of a pencil simulating the player's stream is a clever solution to avoid any potential embarrassment during testing.
+
+> Note: "player's stream" or "gamer's stream" or urine stream" refers to the flow of urine out of the body when a person urinates.
+{: .prompt-tip }
+
+ <style>
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; // use "cover" to avoid distortion
+                position: absolute;
+
+    }
+</style>
+<center>
+<video autoplay loop muted playsinline>
+    <source src="/assets/Pinect/ch0/demo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.       
+</video>
+</center>
+
+
+The comprehensive guide on how to do so from "scratch" using an Arduino, Android device, cheap USB camera and PLA filament. This decision was created a modularized, flexible and extensible platform.
+
+### That guide consists of articles:
+
+1. #### [**Chapter 1. From Idea to MVP**](/pinect/Pinect-idea2mvp/)
+2. #### [**Chapter 2. Console Design & Components**](/pinect/Pinect-Components/)
+3. #### [**Chapter 3. Control Board**](/pinect/Pinect-controlboard/)
+4. ####  [**Chapter 4. Arduino firmware**](/pinect/Pinect-arduino/)
+5. #### Android software. Control Service - *work in progress* 
+6. #### Android software. Game - *work in progress* 
+7. #### Android software. Android remote control - *work in progress* 
+

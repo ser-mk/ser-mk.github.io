@@ -1,6 +1,6 @@
 ---
-title: Chapter 1. Console Components
-date: 2023-01-20
+title: Chapter 2. Console Design & Components
+date: 2023-01-17
 categories: [Pinect]
 tags: [Pinect, 3d printing, arduino, electronics, sensor]     # TAG names should always be lowercase
 image: /assets/Pinect/ch1/preview.webp

@@ -1,38 +1,15 @@
 ---
-title: Chapter 0. "From Idea to MVP"
-date: 2023-01-12
+title: Chapter 1. From Idea to MVP
+date: 2023-01-16
 categories: [Pinect]
 tags: [Pinect, MVP, python, algorithm, image recognition]     # TAG names should always be lowercase
-image: http://ser-mk.github.io/assets/Pinect/ch0/sensor_position.png
+image: http://ser-mk.github.io/assets/Pinect/ch0/neighbor.png
 description: Detailing the process of creating an MVP for a unique urinal game console concept. Discussing the steps taken to validate the idea and bring it to fruition, including design and development considerations.
 ---
 
-There are a ton of video game consoles that have come out over the years. Each of them is unique, but something else that has set some consoles apart is the fact that a lot of them have some really unique controllers. 
-While most games just use a standard controller with thumbsticks, a D-pad, and various different buttons that are used to control your character, there are some consoles that have been released that have used some unique controllers. 
-We’ve been treated to some of the most bizarre and downright crazy input devices ever created. Devices that are so outlandish, or just plain pointless that they deserve to be recognised, for good, and bad.
+## [**Introduction**](https://ser-mk.github.io/pinect/Pinect-intro/)
 
-One of those devices is a hand-free controller for [Interactive urinals](https://en.wikipedia.org/wiki/Interactive_urinal). Their devices have a long history, yet little is known about them on Wikipedia. This is mostly due to the high cost of equipment, complicated installation, and vendor-proprietary platforms. Empowered by my own recent experience, I realized I could make a cheaper version of this console and decided to take matters into my own hands. It happened before the 2018 FIFA World Cup in Russia. Therefore, I thought it might be fun to do a multiplayer football game, sort of like arcade [pong](https://en.wikipedia.org/wiki/Pong). Football fans would have the ability to have a beer at a pub and then compete against each other in football pong using the urinal game controller.
-
-![Bad Toilet Etiquette](/assets/Pinect/ch0/Urinal_Etiquette.webp "Bad Toilet Etiquette")
-![Pinect game offer](/assets/Pinect/ch0/footbal_game.webp "Pinect game offer")
-
-Since I had a lot of fun with this project and because I love open-source code, I figured I'd publish all the source code and make a writeup of how I designed the first Open Source Interactive Urinal Arcade Video Game Console, which I named Pinect.
-
-This video provides a great visual of how the technology will work in the final Pinect device. It's impressive to see the process in action and it gives a clear understanding of how it will function in the end product. The use of a pencil simulating the player's stream is a clever solution to avoid any potential embarrassment during testing.
-
-> Note: "player's stream" or "gamer's stream" or urine stream" refers to the flow of urine out of the body when a person urinates.
-{: .prompt-tip }
-
-<center>
-<video autoplay loop muted playsinline>
-    <source src="/assets/Pinect/ch0/demo.mp4" type="video/webm">
-    Your browser does not support HTML5 video.       
-</video>
-</center>
-
-The comprehensive guide on how to do so from "scratch" using an Arduino, Android device, cheap USB camera and PLA filament. This decision was created a modularized, flexible and extensible platform.
-
-Let’s get started and see how other urine game devices are built. Several designs have been produced to date, usually comprising a urinal fitted with a pressure sensor to measure the strength and position of the urine flow and an LCD screen mounted above the urinal to provide animated graphics. All these items are easy to get for an ordinary person, except the urinal fitted with a sensor. What a replacement for it could look like?
+Let’s see how other urine game devices are built. Several designs have been produced to date, usually comprising a urinal fitted with a pressure sensor to measure the strength and position of the urine flow and an LCD screen mounted above the urinal to provide animated graphics. All these items are easy to get for an ordinary person, except the urinal fitted with a sensor. What a replacement for it could look like?
 
 Throughout my quest, I experimented with a variety of sensors, including ultrasonic, infrared, and radio types. I was looking for a simple and cheaper solution. But I couldn’t find one. Any design required a more complex geometry setup. Depending on the geometry-based situation and possible scenarios in a specific reflective cover of the urinal, each device needs its own individual processing. This required careful sensor placement and the calculation of correction factors for each individual device. It was a time-consuming process and not exactly a turn-key solution for DIY makers and engineers.
 

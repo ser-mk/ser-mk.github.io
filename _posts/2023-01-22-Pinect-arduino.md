@@ -1,6 +1,6 @@
 ---
 title: Chapter 4. Arduino firmware
-date: 2023-01-22
+date: 2023-01-20
 categories: [Pinect]
 tags: [Pinect, electronics, arduino, firmware]     # TAG names should always be lowercase
 image: http://ser-mk.github.io/assets/Pinect/ch3/preview.png

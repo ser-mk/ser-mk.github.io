@@ -1,6 +1,6 @@
 ---
-title: Chapter 2. Control Board
-date: 2023-01-21
+title: Chapter 3. Control Board
+date: 2023-01-18
 categories: [Pinect]
 tags: [Pinect, electronics, pcb]     # TAG names should always be lowercase
 image: http://ser-mk.github.io/assets/Pinect/ch2/preview.png
