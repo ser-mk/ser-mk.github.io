@@ -2,7 +2,7 @@
 title: Chapter 4. Android Software. Input Controller service
 date: 2023-01-20
 categories: [Pinect]
-tags: [Pinect]     # TAG names should always be lowercase
+tags: [Pinect, android, aidl, uvc, image recognition, YUV]     # TAG names should always be lowercase
 image: http://ser-mk.github.io/assets/Pinect/ch4/preview.png
 description: About developing an Android app for the Pinect game console that captures video and recognizes player movement
 ---
@@ -13,9 +13,9 @@ In this article, we will delve into the details of the complex software that pow
 
 ![service scheme](/assets/Pinect/ch4/scheme.webp)
 
-In order for a tablet to run a game, it must have at least three android services installed. These services work together like a microservice architecture to to provide the necessary functionality for the tablet to run the game, capture input commands using the camera, and execute remote commands.
+In order for a tablet to run a game, it must have at least three android services installed. These services work together like a microservice architecture to provide the necessary functionality for the tablet to run the game, capture input commands using the camera, and execute remote commands.
 
-The first service is the controller service, which handles input from the camera and processes it into meaningful commands that can be passed to the game.The second service is the client service, which is responsible for executing remote commands and sending game stats to the server. The third service is the game service, which runs the actual game and handles the gameplay mechanics. There can be many different games that can be run on this system, and developers can even create their own custom games to run on the platform.
+The first service is the [controller service](https://github.com/ser-mk/pilauncher), which handles input from the camera and processes it into meaningful commands that can be passed to the game.The second service is the [client service](https://github.com/ser-mk/mclient), which is responsible for executing remote commands and sending game stats to the server. The third service is the [game](https://github.com/ser-mk/piball), which runs the actual game and handles the gameplay mechanics. There can be many different games that can be run on this system, and developers can even create their own custom games to run on the platform.
 
 Let's take a closer look at the controller service, which is an android app responsible for handling input from the camera. It captures images from the USB camera and processes each frame to extract meaningful commands that can be passed to the game. However, the [Opensource UVC camera library](https://github.com/saki4510t/UVCCamera) only allows for the drawing of frames, and does not provide access to the raw frame data. In order to capture and process the raw frame data for our purposes, I had [to patch the library](https://github.com/ser-mk/UVC_library/commit/387016aab34b243cd6442882472146cea1a7e8f6) by adding a new native endpoint that sets a callback function. This callback function accepts the raw frame data as an argument, allowing us to access and process it as needed. We then set the callback and wrote our own code for processing the frame data.
 
