@@ -7,7 +7,7 @@ image: http://ser-mk.github.io/assets/Pinect/ch0/neighbor.png
 description: Detailing the process of creating an MVP for a unique urinal game console concept. Discussing the steps taken to validate the idea and bring it to fruition, including design and development considerations.
 ---
 
-## [**Introduction**](https://ser-mk.github.io/pinect/Pinect-intro/)
+## [**Introduction**](https://ser-mk.github.io/pinect/intro/)
 
 Let’s see how other urine game devices are built. Several designs have been produced to date, usually comprising a urinal fitted with a pressure sensor to measure the strength and position of the urine flow and an LCD screen mounted above the urinal to provide animated graphics. All these items are easy to get for an ordinary person, except the urinal fitted with a sensor. What a replacement for it could look like?
 
@@ -60,7 +60,8 @@ One advantage of using a 1D convolution for this purpose is that it is a fairly 
 
 I have written a script in Python to demonstrate how this technique can be used in practice. To test your algorithm, you used a recorded video where the "stream" was simulated using a syringe without a detachable needle. By applying a 1D convolution to the image data, you were able to detect the movement of the "stream" and track its position over time.
 
-Let’s see the demo. Please, download the repo [https://github.com/ser-mk/Pinect-MVP](https://github.com/ser-mk/Pinect-MVP), prepare  your environment according to the repo documentation, and run the script.
+## Let’s see the demo.
+ Please, download the repo [https://github.com/ser-mk/Pinect-MVP](https://github.com/ser-mk/Pinect-MVP), prepare  your environment according to the repo documentation, and run the script.
 
 <center>
 <video autoplay loop muted playsinline>
@@ -70,7 +71,7 @@ Let’s see the demo. Please, download the repo [https://github.com/ser-mk/Pinec
 </video>
 </center>
 
-The video and white window are to be shown on screen. The script allows users to interact with a recorded video and visualize the results of a 1D convolution. By pressing the space key, users can play the video and see the convolution graph plotted on the screen. It is an ultra-narrow 1D convolution of the part of the image marked pink inside the green rectangle. Users can also create a new convolution area by pressing the 'm' key, drawing a rectangle using the right mouse button, and painting an area using the left mouse button. Press the space key to continue, and space again to play.
+The video and white window are to be shown on screen. The script allows users to interact with a recorded video and visualize the results of a 1D convolution. By pressing the space key, users can play the video and see the convolution graph plotted on the screen. It is an ultra-narrow 1D convolution of the part of the image marked pink inside the green rectangle. Users can also create a new convolution area by pressing the **'m'** key, drawing a rectangle using the right mouse button, and painting an area using the left mouse button. Press the space key to continue, and space again to play.
 <center>
 <video autoplay loop muted playsinline>
     <source src="/assets/Pinect/ch0/m_key.webm" type="video/webm">
