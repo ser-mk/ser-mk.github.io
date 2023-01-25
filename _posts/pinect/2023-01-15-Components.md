@@ -64,7 +64,7 @@ Ok, let’s see what we got
 In addition to the various components we've discussed so far, it was also necessary to develop a board based on microcomputers in order to supply power and control the various devices used in the Pinect hand-free console. The design of the board and its software are topics that we'll be exploring in a future post.
 For now, let's turn our attention to the case that will contain all of these electronic components. One option I considered was using 3D printing technology to create a custom case for the Pinect console. 3D printing has come a long way in recent years and is now more accessible than ever, making it a viable option for creating a case for our device. 
 
-You can download 3d model [**here**](/assets/Pinect/ch1/box-19.STL). STL format
+You can download 3d model [**here**](/assets/Pinect/ch1/pinect-box-19.stl). STL format
 
 Using 3D printing for the case has a number of benefits. It allows for a high level of customization and flexibility in terms of design, and it can also be a cost-effective way to produce a case in small quantities.
 
