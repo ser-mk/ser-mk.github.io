@@ -55,6 +55,8 @@ Additionally, the charger has protection and monitoring functions such as over-c
 
 You can download the circuit diagram [**here**](/assets/Pinect/ch2/scheme.dch). And PCB layout [**here**](/assets/Pinect/ch2/pcb.dip). All files have a DipTrace file format.
 
+![scheme](/assets/Pinect/ch2/scheme.webp)
+
 In the scheme and layout, you may notice that some of the electronic parts are not soldered onto the PCB. This is because I have included spare parts on the diagram and layout, For example:
 
 ![double parts](/assets/Pinect/ch2/double_parts.webp){: w='300'}
