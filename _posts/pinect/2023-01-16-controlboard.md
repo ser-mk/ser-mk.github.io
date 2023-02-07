@@ -76,6 +76,8 @@ The “TAB” J3 socket is a power connector for the tablet. The tablet’s batt
 
 The "CAM" J5 socket is used to connect power to the camera, and the control board uses the K2 relay to control the flow of power to the camera. The "VIB" J9 socket is used for the tablet to send feedback signals to the control board.
 
+![camera connection](/assets/Pinect/ch2/rele.png)
+
 The PIR motion sensor is connected via the J11 “PIR” socket. By analogy, The radio motion sensor is connected via the J7 “RCWL” socket.
 
 The J4 “TEMP” socket is used to connect the temperature DS18B20 sensor. This sensor is attached to the finned heatsink of the LED (The photo above doesn’t show it).
