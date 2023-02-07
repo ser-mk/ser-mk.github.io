@@ -7,6 +7,9 @@ image: /assets/Pinect/ch1/preview.webp
 description: Delving into the design and components of the finished device of the Pinect console.
 ---
 
+### Linked files:
+ * [STL model](/assets/Pinect/ch1/pinect-box-19.stl)
+
 Welcome to the second installment of our series on the development of Pinect, a hand-free console for gamers. In our previous post, we explored the algorithm behind the recognition of a gamer stream for use with the console. In this post, we will delve into the design and components of the finished device.
 
 As I mentioned before, an Android device is the heart of the Pinect console. It serves as the computing center, calculating the position of the gamer stream and running the game that utilizes this information. When I first started working on the Pinect console back in 2018, the Mediapad M3 tablet was the most cost-effective option for an Android device with a large screen and the necessary processing power.

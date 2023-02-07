@@ -7,6 +7,11 @@ image: http://ser-mk.github.io/assets/Pinect/ch5/preview.png
 description: Game developing for Pinect hand-free console. Game engine. Android interface used for capturing the game stream position. 
 ---
 
+### Linked repositories:
+ * [PiLauncher](https://github.com/ser-mk/pilauncher)
+ * [PiBall Game](https://github.com/ser-mk/piball)
+ * [Build script](https://github.com/ser-mk/pibuild)
+
 
 In our [previous post](https://ser-mk.github.io/pinect/Pinect-android1nput/), we explored the intricacies of the control service in the Pinect hand-free console and how it expertly captures and processes the gamer's stream position. But what's a control service without a game to put it to use?
 

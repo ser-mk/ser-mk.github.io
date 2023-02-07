@@ -7,6 +7,9 @@ image: http://ser-mk.github.io/assets/Pinect/ch0/neighbor.png
 description: Detailing the process of creating an MVP for a unique urinal game console concept. Discussing the steps taken to validate the idea and bring it to fruition, including design and development considerations.
 ---
 
+### Linked repositories:
+ * [MVP repo](https://github.com/ser-mk/Pinect-MVP)
+
 ## [**Introduction**](https://ser-mk.github.io/pinect/intro/)
 
 Let’s see how other urine game devices are built. Several designs have been produced to date, usually comprising a urinal fitted with a pressure sensor to measure the strength and position of the urine flow and an LCD screen mounted above the urinal to provide animated graphics. All these items are easy to get for an ordinary person, except the urinal fitted with a sensor. What a replacement for it could look like?

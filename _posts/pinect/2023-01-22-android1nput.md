@@ -7,6 +7,15 @@ image: http://ser-mk.github.io/assets/Pinect/ch4/preview.png
 description: About developing an Android app for the Pinect game console that captures video and recognizes player movement
 ---
 
+### Linked repositories:
+ * [PiLauncher](https://github.com/ser-mk/pilauncher)
+ * [Mail client](https://github.com/ser-mk/mclient)
+ * [PiBall Game](https://github.com/ser-mk/piball)
+ * [UVC Android Library](https://github.com/ser-mk/UVC_library)
+ * [Original UVC Lib](https://github.com/saki4510t/UVCCamera)
+ * [Build script](https://github.com/ser-mk/pibuild)
+
+
 Welcome to our article on the inner workings of the most complex software system in the Pinect game controller! As the technical lead of this project, I have had the opportunity to dive deep into the inner workings of this system and I am excited to share my insights with you.
 
 In this article, we will delve into the details of the complex software that powers our game controller, enabling users to input commands and play various games on the device. This software is made up of several android services that interact with each other in order to provide the necessary functionality for the controller to work properly. We will explore the specific roles that each service plays and how they communicate with each other. We will also discuss some of the challenges that we faced while developing this software and how we overcame them.

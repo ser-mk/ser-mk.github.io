@@ -7,6 +7,9 @@ image: http://ser-mk.github.io/assets/Pinect/ch2/preview.png
 description: Schematic of the board, including a PCB layout, discussing the various components and their functionality of Pinect game console
 ---
 
+### Linked files:
+ * [Scheme](/assets/Pinect/ch2/scheme.dch)
+ * [PCB](/assets/Pinect/ch2/pcb.dip)
 
 In my previous posts, I explained an algorithm of recognizing the gamer stream for the Pinect hand-free console and the design of the finished device. In this post, we'll look at the control board design.
 
