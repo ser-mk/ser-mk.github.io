@@ -146,9 +146,7 @@ There are a number of reasons why I might choose to finish a 3D-printed case, su
 
 I have post-processed the 3D-printed case in my garage by priming, painting, and polishing it. This should help to improve the appearance and durability of the case, as well as smooth out any uneven surfaces. Overall, finishing a 3D-printed case can provide a number of benefits and help to make the product more professional and high-quality.
 
-![](/assets/Pinect/ch1/prime1.webp){: w="400" }
-
-![](/assets/Pinect/ch1/prime2.webp){: w="400" }
+![](/assets/Pinect/ch1/prime.webp)
 
 
 Total value was estimated at 200 dollars for 2018.
