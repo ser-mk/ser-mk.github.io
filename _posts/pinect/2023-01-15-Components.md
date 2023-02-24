@@ -57,7 +57,7 @@ Of course, it's worth noting that you could potentially use just one of these se
 
 Ok, let’s see what we got
 
-- Tablet huawei MediaPad M3 10”
+- Tablet Huawei MediaPad M3 10”
 - USB camera 0.3MP
 - LED with driver
 - Two motions sensor

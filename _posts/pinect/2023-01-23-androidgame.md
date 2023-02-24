@@ -1,5 +1,5 @@
 ---
-title: Chapter 5. Android Software. Game
+title: Chapter 6. Android Software. Game
 date: 2023-01-23
 categories: [Pinect]
 tags: [Pinect, android, aidl, game, libgdx, kryonet, java]     # TAG names should always be lowercase

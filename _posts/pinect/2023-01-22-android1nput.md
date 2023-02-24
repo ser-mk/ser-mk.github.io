@@ -1,5 +1,5 @@
 ---
-title: Chapter 4. Android Software. Input Controller service
+title: Chapter 5. Android Software. Input Controller service
 date: 2023-01-20
 categories: [Pinect]
 tags: [Pinect, android, aidl, uvc, image recognition, YUV]     # TAG names should always be lowercase
