@@ -10,7 +10,7 @@ image:
   alt: MCU's Peripheral Forwarding
 ---
 
-In my previous article, we explored the intricacies of [MCU's Peripheral Forwarding technology](https://remotemcu.com/chip-peripheral-forwarding.html). In this paper, we will put theory into practice as we provide a hands-on illustration of this concept. Our focus will be on preparing a driver SDK for use in your PC application. We'll turn to the NRF51 SDK as our primary example, accompanied by the REMCU project.
+In my [previous article](https://interrupt.memfault.com/blog/mcu-peripheral-forwarding), we explored the intricacies of [MCU's Peripheral Forwarding technology](https://remotemcu.com/chip-peripheral-forwarding.html). In this paper, we will put theory into practice as we provide a hands-on illustration of this concept. Our focus will be on preparing a driver SDK for use in your PC application. We'll turn to the NRF51 SDK as our primary example, accompanied by the REMCU project.
 
 We embark on a journey to construct a shared/dynamic REMCU library for the NRF51422 driver SDK. By doing so, you'll gain the capability to effortlessly link this library into your application and harness the power of driver functions to  control over NRF peripherals from your application
 
